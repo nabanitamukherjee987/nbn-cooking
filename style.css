@@ -1,0 +1,116 @@
+/* General Background and Text */
+body {
+    background-color: #FFF8F0;
+    /* Cream */
+    color: #3B2F2F;
+    /* Dark brown text */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #800000 !important;
+    /* Deep Maroon */
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: #FFD166 !important;
+    /* Gold text */
+}
+
+.navbar .nav-link:hover {
+    color: #FFF8F0 !important;
+    /* Cream hover */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #FFD166;
+    /* Golden Yellow */
+    border-color: #FFD166;
+    color: #800000;
+    /* Deep Maroon text */
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #e6c14f;
+    border-color: #e6c14f;
+    color: #800000;
+}
+
+/* Footer */
+footer {
+    background-color: #800000;
+    color: #FFD166;
+    padding: 20px 0;
+}
+
+/* Cards (Services Section) */
+.card {
+    background-color: #FFF8F0;
+    /* Cream */
+    border: 2px solid #FFD166;
+    /* Golden border */
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    color: #800000;
+    /* Deep Maroon */
+    font-weight: 600;
+}
+
+.card-text {
+    color: #3B2F2F;
+}
+
+/* Highlights / Key Features */
+.key-highlight {
+    background-color: #800000;
+    /* Deep Maroon */
+    color: #FFD166;
+    /* Gold text */
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.key-highlight:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.key-highlight h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.key-highlight p {
+    color: #FFD166;
+    font-size: 0.9rem;
+}
+
+.carousel-item img {
+    width: auto;
+    /* full width */
+    /* height: auto; */
+    /* fixed height, adjust as needed */
+    max-width: 1000px;
+    max-height: 500px;
+    /* object-fit: cover; */
+    /* crops image nicely without distortion */
+}
+
+#photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
